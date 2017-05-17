@@ -1,0 +1,68 @@
+@import "main";
+
+
+// Contact us header
+#contact-us-header{
+	background-image: url('../Layout/img/header-slider-1.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 50px 0px;
+	text-align: center;
+	position: relative;
+	top: -20px;
+	h1{
+		color: $mainColor;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+	h2{
+		color: $whiteColor;
+		text-transform: uppercase;
+	}
+}
+
+#contact-us-content{
+	.contact-us-map, .contact-us-forms{
+		padding: 50px 0px;
+	}
+	.contact-us-forms{
+		.form-header{
+			text-align: center;
+			h1{
+				color: $mainColor;
+				font-weight: bold;
+				text-transform: uppercase;
+			}
+			h2{
+				color: $primaryColor;
+				text-transform: uppercase;
+			}
+		}
+		.contact-form{
+			padding: 50px 0px;
+			text-align: center;
+			form{
+				input, textarea{
+					border: 1px solid $border-color;
+					padding: 10px ;
+					border-radius: 5px;
+					margin: 15px 0px;
+					outline-color:transparent;;
+				}
+				input:nth-child(1){
+					margin-right: 60px;
+				}
+			}
+			button{
+				margin-left: 15px;
+				background-color: $mainColor;
+				color: $whiteColor;
+				&:hover, &:focus{
+					background-color: $mainColor-hover;
+					border-color: $mainColor-hover
+				}
+			}
+		}
+	}
+}

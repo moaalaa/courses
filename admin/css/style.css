@@ -1,0 +1,138 @@
+/*global*/
+body{
+  background-color:#eef;
+  text-transform: capitalize;
+  font-family: cursive;
+}
+/*Start Form Attr*/
+*{box-sizing:border-box;}
+.form_container{width: 500px;;margin:auto;font-family: cursive;}
+.form_container input{margin-top: 20px;border:none; color: chocolate;}
+.form_container input[type=submit]{margin-top: 20px;border:none; color: #fff;}
+.form_container select{margin-top: 20px;border:none;text-align: center;color: chocolate;}
+.form_container textarea{margin-top: 20px;width: 100%;resize: none;height: 300px;border:none;color: chocolate;}
+.inp{
+  margin-bottom:10px; 
+}
+/*Start The validation Form*/
+
+.inputError{
+  background-color: #f4bfbf;
+  border: 1px solid #d03e3e;
+  color: #d03e3e;
+}
+.inputError::-webkit-input-placeholder{
+  color: #d03e3e;
+}
+
+.errorMessage{
+  background-color: #d03e3e;
+  color: #fff;
+  clear: right;
+  display: none;
+  font-size: 14px;
+  font-weight: bold;
+  height: 75px;
+  letter-spacing: 1px;
+  
+  -moz-border-radius: 0px 0px 3px 3px;
+  -webkit-border-radius: 0px 0px 3px 3px;
+  border-radius: 0px 0px 3px 3px;
+}
+.errorMessage p{
+  margin: 0px;
+  padding: 30px 0px 0px 30px;
+  text-align: left;
+}
+
+/*End The validation Form*/
+/*Stert Edit And Delete Table*/
+.article-E-D{
+	font-family: cursive;
+	}
+h2{
+  text-align:center;
+ }
+table tr th{
+	padding: 10px;
+	}
+table tr td{
+	padding: 10px;
+	}
+a{
+  text-decoration: none;
+  padding:5px;
+}
+/*End Edit And Delete Table*/
+
+/*start category*/
+.form_container .cat h2 {
+  text-align: center;
+}
+ul li .active a {
+  color: chocolate;
+}
+/*end category*/
+/*Panel*/
+.button{
+	height: 150px;
+	width: 21%;
+	margin-left: 1%;
+	margin-bottom: 50px;
+	float: left;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	}
+/*Panel*/
+/*Start Footer*/
+
+#footer {
+  background-color: #333333;
+  border-bottom: 1px solid #dddddd;
+}
+#footer #top-footer {
+  padding: 50px 0px;
+}
+#footer #top-footer #about-us h4 {
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+}
+#footer #top-footer #about-us p {
+  color: #a4a4a4;
+  padding-right: 70px;
+}
+#footer #top-footer #about-us button {
+  margin-top: 20px;
+}
+#footer #top-footer #quick-links h4 {
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+}
+#footer #top-footer #quick-links p {
+  color: #fdc735;
+  font-weight: bold;
+  padding: 10px 0px;
+}
+#footer #top-footer #quick-links p a {
+  color: #a4a4a4;
+}
+#footer #top-footer #quick-links p a:hover, #footer #top-footer #quick-links p a:focus {
+  color: #fdc735;
+}
+#footer #top-footer #contact-us h4 {
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+}
+#footer #top-footer #contact-us p {
+  padding: 10px 0px;
+  color: #a4a4a4;
+}
+#footer #top-footer #contact-us p i {
+  margin-right: 10px;
+}
+
+/*End Footer*/
+

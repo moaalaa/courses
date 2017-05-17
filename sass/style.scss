@@ -1,0 +1,232 @@
+@import "main";
+
+
+// header Section
+#header{
+	position: relative;
+	top: -20px;
+	overflow: hidden;
+	margin: 0px;
+	.container-fluid{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.single-item{
+		.slick-dots {
+			margin: 0 auto;
+			bottom: 50px;
+		}
+		#slider-1, #slider-2, #slider-3{
+			padding: 180px 0px;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			color: $whiteColor;
+			h1{
+				color: $mainColor;
+				font-size: 64px;
+				font-weight: bold;
+				text-transform: uppercase;
+				line-height: 1;
+			}
+			p{
+				font-size: 28px;
+				margin-bottom: 40px;
+			}
+			button{
+				border-color: $whiteColor;
+				padding: 10px 30px;
+				margin-top: 30px;
+				font-size: 16px;
+				&:hover{
+					border-color: $mainColor;
+				}
+			}
+		}
+		#slider-1{
+			background-image: url(../Layout/img/header-slider-1.jpg);
+		}
+		#slider-2{
+			background-image: url(../Layout/img/header-slider-2.jpg);
+		}
+		#slider-3{
+			background-image: url(../Layout/img/header-slider-3.jpg);
+		}
+	}
+}
+
+
+// Welcome Section
+#welcome{
+	.section-header{
+		text-align: left;
+		padding: 0px 20px 0px 0px;
+		margin-top: 50px;
+		h1{
+			color: $primaryColor;
+			font-weight: normal;
+			margin-bottom: 30px;
+			span{
+				font-weight: bold;
+			}
+		}
+		p{
+			color:$fontPrimaryColor;
+			text-transform: lowercase;
+			margin:30px 0px;
+		}
+	}
+	.section-content{
+		iframe{
+			margin-top: 50px;
+		}
+	}
+}
+
+
+// Popular Courses Section
+#popular-courses{
+	.section-content{
+		.multiple-items{
+			.course-img{
+				img{
+					opacity: 1;
+					transition: all 0.5s ease-in-out;
+					&:hover{
+						opacity: 0.75;
+					}
+				}
+			}
+			.course-name{
+				text-align: left;
+				text-transform: capitalize;
+				border: 1px solid $border-color;
+				h3 {
+					padding-left: 20px;
+					a{
+						color: $primaryColor;
+						font-weight: bold;
+						&:hover, &:focus{
+							color: $mainColor-border;
+						}
+					}
+				}
+				p{
+					font-weight: normal;
+					color: $mainColor-border;
+					padding-left: 20px;
+				}
+			}
+			.course-user-interactive{
+				text-align: left;
+				border-left: 1px solid $border-color;
+				border-bottom: 1px solid $border-color;
+				border-right: 1px solid $border-color;
+				#interactive-left{
+					ul{
+						padding: 7px 0px 0px 10px;
+						list-style: none;
+						li{
+							color: $fontPrimaryColor;
+							display: inline;
+							margin: 0px 10px;
+							i{
+								margin-right: 5px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+// Achievement Section
+#achievement{
+	background-image: url(../Layout/img/achevement-bg.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	.section-header{
+		h1{
+			color: $whiteColor;
+		}
+	}
+	.section-content{
+		div{
+			img{
+				width: 70px;
+				height: 70px;
+			}
+			h1{
+				font-size: 58px;
+				color: $mainColor;
+				font-weight: bold;
+			}
+			p{
+				color: $whiteColor;
+				font-weight: bold;
+				font-size: 18px;
+			}
+		}
+		button {
+			color: $mainColor;
+			margin-top: 50px;
+			font-size: 20px;
+			&:hover{
+				color: $whiteColor;
+			}
+		}
+	}
+}
+
+// Recent Articla Section
+#articles{
+	.section-content{
+		.article-img{
+			img{
+				opacity: 1;
+				transition: all 0.5s ease-in-out;
+				&:hover{
+					opacity: 0.75;
+				}
+			}
+		}
+		.article-content{
+			text-align: left;
+			margin-top: 30px;
+			padding-right: 30px;
+			.date{
+				color: $mainColor;
+				font-weight: bold;
+				float: left;
+				span{
+					font-weight: normal;
+				}
+			}
+			.content{
+				float: left;
+				h3{
+					a{
+						color: $primaryColor;
+						text-transform: uppercase;
+						font-weight: bold;
+						&:hover, &:focus{
+							color: $mainColor;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+// courses-type Section
+#courses-type{
+	background-color: $border-color;
+	.section-content{
+		padding: 30px 0px;
+	}
+}

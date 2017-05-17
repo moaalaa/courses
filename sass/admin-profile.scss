@@ -1,0 +1,165 @@
+@import "main";
+
+// admin profile
+#admin-profile-content{
+	.admin-information, .admin-pannel{
+		background-color: $whiteColor;
+		padding: 20px;
+		box-shadow: 4px 4px 10px $border-color;
+		border: 1px solid $border-color;
+		border-radius: 3px;
+	}
+	.admin-information{
+		float: left;
+		text-align: center;
+		margin: 0 auto;
+		#admin-face{
+			background-image: url(../Layout/img/user-bg.jpg);
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			padding: 50px 0px;;
+			img{
+				border-radius: 50%;
+			}
+			h2{
+				text-transform: uppercase;
+				font-weight: bold;
+				color: $mainColor;
+			}
+		}
+		#admin-info{
+			margin-top: 30px;
+			div{
+				text-align: left;
+				margin: 5px 0px;
+				padding:5px 0px 1px 10px;
+				background-color: $whiteColor;
+				border-radius:3px;
+				p{
+					font-size: 16px;
+					b{
+						margin-right: 20px;
+					}
+				}
+			}
+			.lable{
+				background-color: $border-color;
+			}
+		}
+	}
+	.admin-pannel{
+		float: right;
+		#edit-account{
+			border-bottom: 1px solid $border-color;
+			padding-bottom: 30px;
+			form{
+				h3{
+					color: $primaryColor;
+					font-weight: bold;
+					text-transform: uppercase;
+					margin-bottom: 30px;
+				}
+				div{
+					color: $primaryColor;
+					input{
+						border: 1px solid $border-color;
+						padding: 10px 10px;
+						border-radius: 2px;
+						margin: 5px 0px;
+					}
+				}
+				button{
+					color: $mainColor;
+					margin: 15px 0px;
+					&:hover, &:focus{
+						color: $whiteColor;
+					}
+				}
+			}
+		}
+		#edit-profile{
+			border-bottom: 1px solid $border-color;
+			padding-bottom: 30px;
+			form{
+				h3{
+					color: $primaryColor;
+					font-weight: bold;
+					text-transform: uppercase;
+					margin-bottom: 30px;
+				}
+				div{
+					color: $primaryColor;
+					input, select, textarea{
+						border: 1px solid $border-color;
+						padding: 10px 10px;
+						border-radius: 2px;
+						margin: 5px 0px;
+					}
+				}
+				button{
+					color: $mainColor;
+					margin: 10px 15px 10px 10px;
+					&:hover, &:focus{
+						color: $whiteColor;
+					}
+				}
+			}
+		}
+		#add-article{
+			border-bottom: 1px solid $border-color;
+			padding-bottom: 30px;
+			form{
+				h3{
+					color: $primaryColor;
+					font-weight: bold;
+					text-transform: uppercase;
+					margin-bottom: 30px;
+				}
+				div{
+					color: $primaryColor;
+					input, select, textarea{
+						border: 1px solid $border-color;
+						padding: 10px 10px;
+						border-radius: 2px;
+						margin: 5px 0px;
+					}
+				}
+				button{
+					color: $mainColor;
+					margin: 30px 0px 0px 10px;
+					&:hover, &:focus{
+						color: $whiteColor;
+					}
+				}
+			}
+		}
+		#edit-article{
+			padding-bottom: 30px;
+			form{
+				h3{
+					color: $primaryColor;
+					font-weight: bold;
+					text-transform: uppercase;
+					margin-bottom: 30px;
+				}
+				div{
+					color: $primaryColor;
+					input, select, textarea{
+						border: 1px solid $border-color;
+						padding: 10px 10px;
+						border-radius: 2px;
+						margin: 5px 0px;
+					}
+				}
+				button{
+					color: $mainColor;
+					margin: 10px 15px 10px 10px;
+					&:hover, &:focus{
+						color: $whiteColor;
+					}
+				}
+			}
+		}
+	}
+}
