@@ -1,7 +1,7 @@
 CSS
 
-<link href="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.css">
+<link href="https://cdn.jsdelivr.net/gh/michalsnik/aos@2.0.4/dist/aos.css">
 
 JS
 
-<script src="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js">
+<script src="https://cdn.jsdelivr.net/gh/michalsnik/aos@2.0.4/dist/aos.js">
